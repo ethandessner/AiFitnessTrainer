@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Let's get into shape!</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+
+</head>
+<body>
+    <div>
+        <h1>Welcome to your AI Fitness Trainer!</h1>
+        <p>Instructions: Stand at about a 30-degree angle towards your camera so the lens has a clear view of your arm</p>
+        <p>Note: This app is ONLY compatible with a desktop or laptop with a working webcam</p>
+        <div>
+             <a href="{{ url_for('curls') }}" class="button">Curls</a>
+<!--            <a href="{{ url_for('curls') }}" class="button">Squats</a>-->
+        </div>
+    </div>
+
+</body>
+</html>

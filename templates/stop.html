@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Let's get into shape!</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div>
+        <h1 id="countDisplay">You did a total of: <br> {{ curlCount }} curls!</h1>
+<!--        <h1 id="countDisplay">Total: {{ curlCount }}</h1>-->
+        <h2>Note: Total curl count may be off by 0.5 to 2.0 curls. Calibration sometimes causes faulty incrementation</h2>
+        <a href="{{ url_for('index') }}" class="button">Go Home</a>
+    </div>
+</body>
+</html>

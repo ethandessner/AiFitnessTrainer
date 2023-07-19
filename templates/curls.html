@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Let's get into shape!</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+
+</head>
+<body>
+    <div>
+        <h1>Start curling!</h1>
+        <img src="{{ url_for('video') }}" width="50%"/>
+        <a href="{{ url_for('stop') }}" class="button">See Results</a>
+    </div>
+
+</body>
+</html>

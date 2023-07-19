@@ -1,0 +1,79 @@
+/* styling.css */
+
+/* Center the content horizontally and vertically */
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Set the height of the body to the viewport height */
+  margin: 0; /* Remove default body margin */
+  background: linear-gradient(to bottom, #F8B195, white);
+}
+
+/* Style the h1 element */
+
+div {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+  background-color: #F67280; /* Make the text red */
+  text-align: center;
+  color: white;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+h2 {
+  background-color: white; /* Make the text red */
+  text-align: center;
+  color: lightgray;
+  border-radius: 8px;
+  padding: 8px;
+  font-size: 16px;
+}
+
+p{
+  background-color: #B5838D; /* Make the text red */
+  text-align: center;
+  color: white;
+  border-radius: 8px;
+  padding: 8px;
+
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+}
+
+button, input[type="button"], input[type="submit"] {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #538790;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  margin: 10px;
+}
+
+.button:hover {
+  background-color: #87cefa;
+}
